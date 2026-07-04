@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>합정 셔츠룸 룩북 | 블로그 – 티3비08</title>
+    <meta name="description" content="합정 셔츠룸 룩북, 그냥 예쁜 사진이 아니다. 티3비08이 말하는 진짜 스타일. 읽고 나면 셔츠룸이 달라 보인다.">
+    <meta name="keywords" content="합정 셔츠룸, 합정 셔츠룸 룩북, 합정룸, 셔츠룸 추천, 합정 유흥, 티3비08, 셔츠룸 블로그">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <link rel="canonical" href="https://t3b08-hj-shirts-look-1.vercel.app/blog">
+    <meta property="og:title" content="합정 셔츠룸 룩북 | 진짜 정보는 여기">
+    <meta property="og:description" content="합정 셔츠룸, 티3비08만의 룩북과 스타일. 24시간 예약 010-6279-0862">
+    <meta property="og:type" content="website">
+    <style>
+        /* ----- RESET & BASE (동일 디자인 시스템) ----- */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #f7f5f0;
+            color: #1d1b1a;
+            line-height: 1.6;
+            padding-top: 70px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ----- HEADER / NAV (완전 동일) ----- */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #ffffffec;
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid #e2ddd6;
+            z-index: 100;
+            height: 70px;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: baseline;
+            gap: 2px;
+            font-weight: 700;
+            font-size: 1.6rem;
+            letter-spacing: -0.5px;
+            color: #1d1b1a;
+            text-decoration: none;
+        }
+
+        .logo span {
+            font-weight: 300;
+            color: #a59a8b;
+            margin-left: 4px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            font-weight: 500;
+            color: #1d1b1a;
+            font-size: 0.95rem;
+            letter-spacing: 0.3px;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: #b45f3b;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 4px 0;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background: #1d1b1a;
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+
+        /* 반응형 768px */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                width: 100%;
+                background: #f7f5f0;
+                flex-direction: column;
+                padding: 24px 20px 32px;
+                gap: 20px;
+                border-bottom: 1px solid #e2ddd6;
+                box-shadow: 0 12px 20px rgba(0,0,0,0.03);
+            }
+
+            .nav-links.open {
+                display: flex;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .container {
+                padding: 0 20px;
+            }
+        }
+
+        /* ----- 공통 섹션 스타일 (같은 디자인 시스템) ----- */
+        section {
+            padding: 60px 0;
+            border-bottom: 1px solid #e8e2da;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        .section-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .section-sub {
+            font-size: 1rem;
+            color: #5e554b;
+            max-width: 680px;
+            margin-bottom: 32px;
+        }
+
+        .text-block {
+            max-width: 760px;
+        }
+
+        .text-block p {
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+            color: #2b2825;
+        }
+
+        .text-block strong {
+            color: #b45f3b;
+            font-weight: 600;
+        }
+
+        .highlight-card {
+            background: #ffffffd9;
+            padding: 28px 32px;
+            border-radius: 20px;
+            border: 1px solid #e2dad2;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+            margin: 32px 0;
+        }
+
+        .highlight-card p {
+            margin-bottom: 0.5rem;
+        }
+
+        .tel-link {
+            display: inline-block;
+            background: #1d1b1a;
+            color: #f7f5f0;
+            font-weight: 600;
+            padding: 14px 36px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            letter-spacing: 0.5px;
+            transition: background 0.2s, transform 0.1s;
+            margin-top: 16px;
+        }
+
+        .tel-link:hover {
+            background: #b45f3b;
+            transform: scale(1.02);
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd8d0;
+            margin: 40px 0;
+        }
+
+        /* 푸터 (심플) */
+        .footer-note {
+            text-align: center;
+            padding: 32px 0 20px;
+            font-size: 0.85rem;
+            color: #7a7167;
+            border-top: 1px solid #e2dad2;
+        }
+
+        /* FAQ 스타일 (필요 시) */
+        .faq-item {
+            padding: 18px 0;
+            border-bottom: 1px solid #e8e2da;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+<header>
+    <div class="nav-wrap">
+        <a href="/" class="logo">T3B08<span>합정셔츠룸</span></a>
+        <!-- 네비게이션 링크 (전체 페이지 공통) -->
+        <nav class="nav-links" id="navLinks">
+            <a href="/">룩북</a>
+            <a href="/about">소개</a>
+            <a href="/blog">블로그</a>
+            <a href="/contact">예약</a>
+        </nav>
+        <button class="hamburger" id="hamburgerBtn" aria-label="메뉴 열기">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<main class="container">
+    <!-- 블로그 포스트 (정보성 글 1편) -->
+    <section>
+        <span style="font-size:0.9rem; color:#b45f3b; font-weight:600; letter-spacing:0.5px;">BLOG · 2025.03.31</span>
+        <h1 class="section-title" style="margin-top: 8px;">합정 셔츠룸 룩북, 왜 가짜만 넘쳐날까?</h1>
+        <div class="section-sub">진짜는 티3비08 뿐이다. 셔츠 하나로 승부 보는 이유.</div>
+
+        <div class="text-block">
+            <p><strong>“룩북 보고 왔는데 완전 다르던데요?”</strong> 이런 말, 합정 셔츠룸 씬에서 한 번쯤 들어봤을 거야. 맞아, 대부분의 합정 셔츠룸 룩북은 스튜디오 조명, 보정, 각도 빨. 심지어 다른 업소 사진을 도용하는 경우도 허다해. <strong>티3비08은 다르다.</strong> 우리는 가짜 필터를 덧씌우지 않아. 셔츠 하나, 핏 하나, 분위기까지 실제 그대로. 왜? 니가 전화 한 통이면 바로 확인할 수 있으니까.</p>
+
+            <p>합정 셔츠룸을 찾는 사람들은 점점 똑똑해지고 있어. “룩북 예쁘게 나왔네?” → 실제 가보니 전혀 다른 인원, 다른 분위기. 실망하고 다시 전화하는 게 반복이야. <strong>티3비08은 그런 거 없음.</strong> 우리 블로그에 올리는 룩북, 그리고 실제 합정 지점의 셔츠룸 퀄리티는 거의 100% 일치해. 왜? 자신 있으니까.</p>
+
+            <div class="highlight-card">
+                <p style="font-weight:600; font-size:1.2rem;">📸 오늘의 룩북 포인트</p>
+                <p>▸ 화이트 드레스 셔츠 × 블랙 슬랙스 — <strong>합정 셔츠룸 시그니처</strong><br>
+                ▸ 슈미즈 스타일 셔츠 (린넨 혼방) — 올여름 인기<br>
+                ▸ 진짜 핏, 진짜 질감. 편집 없음.</p>
+                <a href="tel:01062790862" class="tel-link">📞 010-6279-0862</a>
+            </div>
+
+            <p><strong>합정 셔츠룸 룩북, 더 이상 낚이지 마.</strong> 우리는 ‘셔츠룸’의 기본에 집중한다. 셔츠 하나로 분위기가 결정되는 공간. 그래서 티3비08은 셔츠 디테일에 목숨 걸어. 칼라, 소매, 소재, 심지어 단추 마감까지. 합정에서 가장 완성도 높은 셔츠룸을 원한다면, 다른 곳 비교할 필요 없어. 전화해. 직접 와서 보면 안다.</p>
+
+            <hr>
+
+            <p style="font-size:1.2rem; font-weight:600;">✔️ 합정 셔츠룸, 이런 점이 다릅니다</p>
+            <p>1. <strong>룩북과 실물 99% 일치</strong> — 거짓말하지 않는 운영.<br>
+            2. <strong>셔츠만 20종 이상</strong> — 기본, 프리미엄, 한정판 라인.<br>
+            3. <strong>24시간 예약</strong> — 전화 한 통이면 오늘 밤도 가능.<br>
+            4. <strong>합정 역 도보 3분</strong> — 접근성 끝판왕.</p>
+
+            <p style="margin-top:24px;">합정 셔츠룸, 티3비08의 진짜 룩북을 보고 싶다면? 더 이상 블로그에서 눈요기 그만하고. <strong>지금 바로 전화해.</strong> 010-6279-0862. 예약은 5초면 끝나. 셔츠 하나로 승부 보는 곳, 직접 체험해.</p>
+        </div>
+    </section>
+
+    <!-- FAQ 섹션 (블로그와 연결된 FAQ) -->
+    <section>
+        <h2 class="section-title" style="font-size:1.8rem;">합정 셔츠룸 룩북 FAQ</h2>
+        <div class="faq-item">
+            <p style="font-weight:600;">Q. 합정 셔츠룸 룩북, 실제 인물과 차이가 있나요?</p>
+            <p style="color:#3b3530;">A. 티3비08은 보정을 최소화합니다. 조명은 실제 공간 조명과 유사하게 촬영. 타 업소 대비 신뢰도 높음. 직접 확인 가능.</p>
+        </div>
+        <div class="faq-item">
+            <p style="font-weight:600;">Q. 블로그에 나온 셔츠 종류는 모두 예약 가능한가요?</p>
+            <p style="color:#3b3530;">A. 네, 전시된 셔츠 라인은 모두 실제 보유 중. 단, 한정판은 조기 소진될 수 있으니 전화 문의.</p>
+        </div>
+        <div class="faq-item">
+            <p style="font-weight:600;">Q. 합정 셔츠룸 예약은 어떻게?</p>
+            <p style="color:#3b3530;">A. 24시간 예약 가능. <strong>010-6279-0862</strong>로 전화 or 문자. 합정역에서 도보 3분, 상세 주소는 전화 시 안내.</p>
+        </div>
+        <div style="margin-top:24px;">
+            <a href="tel:01062790862" class="tel-link" style="background:#b45f3b;">📞 지금 전화 예약</a>
+        </div>
+    </section>
+
+    <!-- 추가: 룩북 미리보기 (고정 카드) -->
+    <section style="border-bottom: none;">
+        <div style="display: flex; flex-wrap: wrap; gap: 24px; background: #f0ece6; padding: 32px; border-radius: 28px;">
+            <div style="flex: 1; min-width: 220px;">
+                <p style="font-weight:700; font-size:1.2rem; margin-bottom: 10px;">🔥 오늘의 합정 셔츠룸</p>
+                <p style="color:#2b2825;">#화이트셔츠 #블랙진 #로퍼<br>티3비08 룩북은 매일 업데이트.</p>
+            </div>
+            <div style="flex: 1; min-width: 180px;">
+                <p style="font-weight:600;">⏳ 24시 예약</p>
+                <p>전화 010-6279-0862</p>
+            </div>
+            <div style="flex: 1; min-width: 140px;">
+                <p style="font-weight:600;">📍 합정</p>
+                <p>셔츠룸 넘버원</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer-note">
+    <p>합정 셔츠룸 티3비08 | 룩북 블로그 | 24시간 예약 010-6279-0862</p>
+    <p style="margin-top:6px;">셔츠 하나로 승부를 걸다. 진짜 룩북은 여기.</p>
+</footer>
+
+<!-- 모바일 네비게이션 토글 스크립트 (동일) -->
+<script>
+    (function() {
+        const hamburger = document.getElementById('hamburgerBtn');
+        const navLinks = document.getElementById('navLinks');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('open');
+            });
+        }
+    })();
+</script>
+
+</body>
+</html>
